@@ -26,10 +26,10 @@ Mediante programas o herramientas para hacer pruebas de API tales como Insomnia 
 
 <hr>
 
-Para el POST Mapping (asi como para las demas requests) hay que colocar la URL de la base de datos para guardar el registro y los datos requeridos (en formato JSON) para añadir un tópico nuevo, entre esos datos tenemos:
+Para el POST Mapping (así como para las demás requests) hay que colocar la URL de la base de datos para guardar el registro y los datos requeridos (en formato JSON) para añadir un tópico nuevo, entre esos datos tenemos:
 
 <ul>
-     <li>Titulo</li>
+     <li>Título</li>
      <li>Mensaje</il>
      <li>Autor</li>
      <li>Curso</li>
@@ -37,7 +37,7 @@ Para el POST Mapping (asi como para las demas requests) hay que colocar la URL d
 
 ![Screenshot 2023-05-08 152818](https://user-images.githubusercontent.com/119342788/236918325-6c3ab30f-e554-4db6-b5ad-1bee485618d6.png)
 
-En caso de que no hayamos agregado algún parámetro (Error 404: Bad Request) o hayan datos duplicados (para el título y mensaje) no guardará los datos y se tendrán que colocar nuevamente esta vez de manera correcta.
+En caso de que no hayamos agregado algún parámetro (Error 400: Bad Request) o hayan datos duplicados (para el título y mensaje) no guardará los datos y se tendrán que colocar nuevamente esta vez de manera correcta.
 
 <hr>
 
