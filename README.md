@@ -48,3 +48,7 @@ Ahora, para hacer algún cambio a algún topico solo hace falta acceder a la URL
 Así mismo tenemos lo que sería el DELETE Mapping, como se hizo mención anteriormente esto funciona para borrar un registro en específico, para ello solo hace falta hacer el request y añadir el URL seguido del número de ID del tópico que se quiere eliminar, como ejemplo teniendo lo siguiente: 
 
 ![Screenshot 2023-05-08 153143](https://user-images.githubusercontent.com/119342788/236930133-8657e638-8f6b-4d0d-a208-5ebb0594f2ab.png)
+
+Por último se encuentra el GET Mapping para buscar un tópico en específico, esto se hace nada más colocando al final de la URL el ID del tópico el cual queremos consultar y obtener información:
+
+![Screenshot 2023-05-08 153249](https://user-images.githubusercontent.com/119342788/236931264-0eb21835-a30b-4d76-a0a1-bfbb76260e21.png)
