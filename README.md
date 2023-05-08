@@ -24,7 +24,7 @@ Mediante programas o herramientas para hacer pruebas de API tales como Insomnia 
 
 ![Screenshot 2023-05-08 152334](https://user-images.githubusercontent.com/119342788/236915847-57f9db6d-1f34-4bc2-9dcd-b23e48386d74.png)
 
-Para el POST Mapping hay que colocar los datos requeridos para añadir un tópico nuevo, entre esos datos tenemos:
+Para el POST Mapping (asi como para las demas requests) hay que colocar la URL de la base de datos para guardar el registro y los datos requeridos para añadir un tópico nuevo, entre esos datos tenemos:
 
 <ul>
      <li>Titulo</li>
@@ -37,4 +37,7 @@ Para el POST Mapping hay que colocar los datos requeridos para añadir un tópic
 
 En caso de que no hayamos agregado algún parámetro o hayan datos duplicados (para el título y mensaje) no guardará los datos y se tendrán que colocar nuevamente esta vez de manera correcta.
 
+Despues de haber agregado un topico podremos hacer uso del GET Mapping, para esta ocasion con solo colocar la URL obtendremos la lista de los topicos añadidos hasta el momento:
+
+![Screenshot 2023-05-08 152907](https://user-images.githubusercontent.com/119342788/236920796-9c16d4e5-1e6f-4307-9788-dcaa50d0485e.png)
 
