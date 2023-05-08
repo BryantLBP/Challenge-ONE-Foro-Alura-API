@@ -41,6 +41,10 @@ Despues de haber agregado un topico podremos hacer uso del GET Mapping, para est
 
 ![Screenshot 2023-05-08 152907](https://user-images.githubusercontent.com/119342788/236920796-9c16d4e5-1e6f-4307-9788-dcaa50d0485e.png)
 
-Ahora, para hacer algun cambio a algun topico solo hace falta acceder a la URL haciendo uso del PUT Mapping y escribir en formato JSON el numero del ID junto con los datos que quiero modificar, teniendo como ejemplo la imagen que se encuentra abajo:
+Ahora, para hacer algún cambio a algún topico solo hace falta acceder a la URL haciendo uso del PUT Mapping y escribir en formato JSON el número del ID junto con los datos que quiero modificar, teniendo como ejemplo la imagen que se encuentra abajo:
 
 ![Screenshot 2023-05-08 153047](https://user-images.githubusercontent.com/119342788/236927754-f55b722d-f1b7-4cdf-8146-0997e5103580.png)
+
+Así mismo tenemos lo que sería el DELETE Mapping, como se hizo mención anteriormente esto funciona para borrar un registro en específico, para ello solo hace falta hacer el request y añadir el URL seguido del número de ID del tópico que se quiere eliminar, como ejemplo teniendo lo siguiente: 
+
+![Screenshot 2023-05-08 153143](https://user-images.githubusercontent.com/119342788/236930133-8657e638-8f6b-4d0d-a208-5ebb0594f2ab.png)
