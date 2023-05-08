@@ -30,7 +30,7 @@ Para el POST Mapping (así como para las demás requests) hay que colocar la URL
 
 <ul>
      <li>Título</li>
-     <li>Mensaje</il>
+     <li>Mensaje</li>
      <li>Autor</li>
      <li>Curso</li>
 </ul>
