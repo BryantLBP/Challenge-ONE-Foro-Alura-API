@@ -24,7 +24,7 @@ Mediante programas o herramientas para hacer pruebas de API tales como Insomnia 
 
 ![Screenshot 2023-05-08 152334](https://user-images.githubusercontent.com/119342788/236915847-57f9db6d-1f34-4bc2-9dcd-b23e48386d74.png)
 
-Para el POST Mapping (asi como para las demas requests) hay que colocar la URL de la base de datos para guardar el registro y los datos requeridos para añadir un tópico nuevo, entre esos datos tenemos:
+Para el POST Mapping (asi como para las demas requests) hay que colocar la URL de la base de datos para guardar el registro y los datos requeridos (en formato JSON) para añadir un tópico nuevo, entre esos datos tenemos:
 
 <ul>
      <li>Titulo</li>
@@ -41,3 +41,6 @@ Despues de haber agregado un topico podremos hacer uso del GET Mapping, para est
 
 ![Screenshot 2023-05-08 152907](https://user-images.githubusercontent.com/119342788/236920796-9c16d4e5-1e6f-4307-9788-dcaa50d0485e.png)
 
+Ahora, para hacer algun cambio a algun topico solo hace falta acceder a la URL haciendo uso del PUT Mapping y escribir en formato JSON el numero del ID junto con los datos que quiero modificar, teniendo como ejemplo la imagen que se encuentra abajo:
+
+![Screenshot 2023-05-08 153047](https://user-images.githubusercontent.com/119342788/236927754-f55b722d-f1b7-4cdf-8146-0997e5103580.png)
