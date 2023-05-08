@@ -5,7 +5,7 @@
 </p>
 
 ¡Hola a todos! Soy Bryant Baptista, bienvenidos a este nuevo desafio sobre el Foro Alura, una API hecha para gestionar bases de datos,
-eso con las funciones basicas basadas en el acronimo CRUD (traducido al español como Crear, Leer/Listar, Actualizar y Borrar/Eliminar), todo esto diseñado mediante el lenguaje de programacion Java y su framework llamado Spring.
+eso con las funciones básicas basadas en el acrónimo CRUD (traducido al español como Crear, Leer/Listar, Actualizar y Borrar/Eliminar), todo esto diseñado mediante el lenguaje de programación Java y su framework llamado Spring.
 La idea para realizar este challenge es gracias al programa ONE y a la gente de Oracle/Alura LATAM.
 
 # Tecnologías utilizadas 🖥️:
@@ -37,11 +37,11 @@ Para el POST Mapping (asi como para las demas requests) hay que colocar la URL d
 
 ![Screenshot 2023-05-08 152818](https://user-images.githubusercontent.com/119342788/236918325-6c3ab30f-e554-4db6-b5ad-1bee485618d6.png)
 
-<hr>
-
 En caso de que no hayamos agregado algún parámetro o hayan datos duplicados (para el título y mensaje) no guardará los datos y se tendrán que colocar nuevamente esta vez de manera correcta.
 
-Despues de haber agregado un topico podremos hacer uso del GET Mapping, para esta ocasion con solo colocar la URL obtendremos la lista de los topicos añadidos hasta el momento:
+<hr>
+
+Después de haber agregado un tópico podremos hacer uso del GET Mapping, para esta ocasión con solo colocar la URL obtendremos la lista de los tópicos añadidos hasta el momento:
 
 ![Screenshot 2023-05-08 152907](https://user-images.githubusercontent.com/119342788/236920796-9c16d4e5-1e6f-4307-9788-dcaa50d0485e.png)
 
