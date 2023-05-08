@@ -4,7 +4,7 @@
      <img width="200" heigth="200" src="https://user-images.githubusercontent.com/91544872/209678377-70b50b21-33de-424c-bed8-6a71ef3406ff.png">
 </p>
 
-¡Hola a todos! Soy Bryant Baptista, bienvenidos a este nuevo desafio sobre el Foro Alura, una API hecha para gestionar bases de datos,
+¡Hola a todos! Soy Bryant Baptista, bienvenidos a este nuevo desafío sobre el Foro Alura, una API hecha para gestionar bases de datos,
 eso con las funciones básicas basadas en el acrónimo CRUD (traducido al español como Crear, Leer/Listar, Actualizar y Borrar/Eliminar), todo esto diseñado mediante el lenguaje de programación Java y su framework llamado Spring.
 La idea para realizar este challenge es gracias al programa ONE y a la gente de Oracle/Alura LATAM.
 
@@ -63,4 +63,4 @@ Por último se encuentra el GET Mapping para buscar un tópico en específico, e
 
 ![Screenshot 2023-05-08 153249](https://user-images.githubusercontent.com/119342788/236931264-0eb21835-a30b-4d76-a0a1-bfbb76260e21.png)
 
-En caso de haber colocado un ID que no exista se le notificara al usuario el no haber encontrado resultado alguno mediante un Error 404
+En caso de haber colocado un ID que no exista se le notificará al usuario el no haber encontrado resultado alguno mediante un Error 404.
