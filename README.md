@@ -8,7 +8,7 @@
 eso con las funciones basicas basadas en el acronimo CRUD (traducido al español como Crear, Leer/Listar, Actualizar y Borrar/Eliminar), todo esto diseñado mediante el lenguaje de programacion Java y su framework llamado Spring.
 La idea para realizar este challenge es gracias al programa ONE y a la gente de Oracle/Alura LATAM.
 
-#Tecnologías utilizadas 🖥️:
+# Tecnologías utilizadas 🖥️:
 
 <ul>
      <li>Java ☕</li>
@@ -18,7 +18,7 @@ La idea para realizar este challenge es gracias al programa ONE y a la gente de 
      <li>Insomnia 👁️/Postman 🧑‍🚀</li>
 </ul>
 
-#Explicación del funcionamiento del programa
+# Explicación del funcionamiento del programa
 
 Mediante programas o herramientas para hacer pruebas de API tales como Insomnia o Postman se tienen como HTTP Requests las funciones CRUD anteriormente mencionadas, tanto para registrar tópicos como para listar, actualizar, borrar o inclusive obtener datos de un tópico en específico, esto haciendo una búsqueda mediante el ID del mismo.
 
