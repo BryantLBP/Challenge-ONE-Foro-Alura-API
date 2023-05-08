@@ -8,6 +8,8 @@
 eso con las funciones basicas basadas en el acronimo CRUD (traducido al español como Crear, Leer/Listar, Actualizar y Borrar/Eliminar), todo esto diseñado mediante el lenguaje de programacion Java y su framework llamado Spring.
 La idea para realizar este challenge es gracias al programa ONE y a la gente de Oracle/Alura LATAM.
 
+<hr>
+
 # Tecnologías utilizadas 🖥️:
 
 <ul>
