@@ -37,7 +37,7 @@ Para el POST Mapping (asi como para las demas requests) hay que colocar la URL d
 
 ![Screenshot 2023-05-08 152818](https://user-images.githubusercontent.com/119342788/236918325-6c3ab30f-e554-4db6-b5ad-1bee485618d6.png)
 
-En caso de que no hayamos agregado algún parámetro o hayan datos duplicados (para el título y mensaje) no guardará los datos y se tendrán que colocar nuevamente esta vez de manera correcta.
+En caso de que no hayamos agregado algún parámetro (Error 404: Bad Request) o hayan datos duplicados (para el título y mensaje) no guardará los datos y se tendrán que colocar nuevamente esta vez de manera correcta.
 
 <hr>
 
@@ -62,3 +62,5 @@ Así mismo tenemos lo que sería el DELETE Mapping, como se hizo mención anteri
 Por último se encuentra el GET Mapping para buscar un tópico en específico, esto se hace nada más colocando al final de la URL el ID del tópico el cual queremos consultar y obtener información:
 
 ![Screenshot 2023-05-08 153249](https://user-images.githubusercontent.com/119342788/236931264-0eb21835-a30b-4d76-a0a1-bfbb76260e21.png)
+
+En caso de haber colocado un ID que no exista se le notificara al usuario el no haber encontrado resultado alguno mediante un Error 404
