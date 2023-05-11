@@ -18,7 +18,7 @@ La idea para realizar este challenge es gracias al programa ONE y a la gente de 
      <li>Insomnia 👁️/Postman 🧑‍🚀</li>
 </ul>
 
-# Explicación sobre el funcionamiento del programa: 1era Parte
+# Explicación sobre el funcionamiento del programa: 1era Parte del Desafío
 
 Mediante programas o herramientas para hacer pruebas de API tales como Insomnia o Postman se tienen como HTTP Requests las funciones CRUD anteriormente mencionadas, tanto para registrar tópicos como para listar, actualizar, borrar o inclusive obtener datos de un tópico en específico, esto haciendo una búsqueda mediante el ID del mismo.
 
@@ -64,3 +64,15 @@ Por último se encuentra el GET Mapping para buscar un tópico en específico, e
 ![Screenshot 2023-05-08 153249](https://user-images.githubusercontent.com/119342788/236931264-0eb21835-a30b-4d76-a0a1-bfbb76260e21.png)
 
 En caso de haber colocado un ID que no exista se le notificará al usuario el no haber encontrado resultado alguno mediante un Error 404.
+
+# Explicación sobre el funcionamiento del programa: 2da Parte del Desafío
+
+A partir de este momento, después de haber logrado la primera parte del desarrollo y para seguir mejorando la API se decidió en hacer una sección para que cada persona pueda crear una cuenta y hacer Login en la aplicación, para ello se recurrió en hacer una nueva tabla para almacenar la información de todos los usuarios; así mismo y por razones de seguridad se le agregó una forma de autenticación llamada JSON Web Token (JWT por sus siglas en ingles) junto con la dependencia que nos proporciona o nos facilita el framework llamada Spring Security.
+
+![JWT](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/5698902a-e7ae-4980-8052-02dd3da6e995)
+![Spring Security](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/d63b7549-afb7-4c3f-a254-9903afd17290)
+
+Una vez hecho eso y ya teniendo la clave de cada usuario encriptada solo faltaba agregar filtros para efectuar la autenticacion de cada token recibido a la hora de hacer un login y asi verificar las credenciales de cada usuario de poder entrar o no a la aplicacion, de ahi teniendo lo siguiente:
+
+
+
