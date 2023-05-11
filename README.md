@@ -70,7 +70,7 @@ En caso de haber colocado un ID que no exista se le notificará al usuario el no
 A partir de este momento, después de haber logrado la primera parte del desarrollo y para seguir mejorando la API se decidió en hacer una sección para que cada persona pueda crear una cuenta y hacer Login en la aplicación, para ello se recurrió en hacer una nueva tabla para almacenar la información de todos los usuarios; así mismo y por razones de seguridad se le agregó una forma de autenticación llamada JSON Web Token (JWT por sus siglas en ingles) junto con la dependencia que nos proporciona o nos facilita el framework llamada Spring Security.
 
 ![JWT](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/5698902a-e7ae-4980-8052-02dd3da6e995)
-![Spring Security](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/d63b7549-afb7-4c3f-a254-9903afd17290)
+![Spring Security](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/f9687d29-c621-4789-8619-b29c681c1392)
 
 Una vez hecho eso y ya teniendo la clave de cada usuario encriptada solo faltaba agregar filtros para efectuar la autenticacion de cada token recibido a la hora de hacer un login y asi verificar las credenciales de cada usuario de poder entrar o no a la aplicacion, de ahi teniendo lo siguiente:
 
