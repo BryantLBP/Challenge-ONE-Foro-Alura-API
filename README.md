@@ -72,7 +72,13 @@ A partir de este momento, después de haber logrado la primera parte del desarro
 ![JWT](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/5698902a-e7ae-4980-8052-02dd3da6e995)
 ![Spring Security](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/f9687d29-c621-4789-8619-b29c681c1392)
 
-Una vez hecho eso y ya teniendo la clave de cada usuario encriptada solo faltaba agregar filtros para efectuar la autenticacion de cada token recibido a la hora de hacer un login y asi verificar las credenciales de cada usuario de poder entrar o no a la aplicacion, de ahi teniendo lo siguiente:
+Una vez creada la cuenta colocamos los datos en formato JSON en el POST Mapping para luego obtener un token:
+
+![POST Mapping Login JWTtoken](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/40ee3241-a947-4c36-9318-e56cb8451c37)
+
+Con este token que hemos obtenido tenemos dos temas: lo primero es que efectivamente se ha validado la cuenta del usuario, y segundo, al colocar todos estos caracteres en la seccion de autenticacion poseemos el permiso para realizar las funciones de crear, listar, modificar y borrar topicos que se requieran, como por ejemplo:
+
+![Ejemplo GET Mapping JWTtoken](https://github.com/BryantLBP/Challenge-ONE-Foro-Alura-API/assets/119342788/7ac27630-76dd-43df-98a5-813326267e81)
 
 
 
