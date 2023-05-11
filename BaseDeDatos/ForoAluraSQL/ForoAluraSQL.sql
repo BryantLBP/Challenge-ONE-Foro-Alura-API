@@ -18,4 +18,14 @@ CREATE TABLE `foro_alura`.`topicos` (
 #Seleccionar la tabla de topicos
 SELECT * FROM topicos;
 
+#En caso de que haya un error en la migracion via Flyway
 DELETE FROM flyway_schema_history WHERE success = 0;
+
+#Insertar un usuario (ejemplo)
+INSERT INTO usuarios (login, clave)
+VALUES ("bryant.baptista", "123456");
+
+#Seleccionar la tabla de usuarios
+SELECT * FROM usuarios;
+
+#clave = $2a$10$qFI5NpQud1xmVhv9QZ0Mnef4mSz7rwMxcrRg2Do4a2VfMTBNdZaXS
