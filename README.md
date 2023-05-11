@@ -20,7 +20,7 @@ La idea para realizar este challenge es gracias al programa ONE y a la gente de 
 
 # Explicación sobre el funcionamiento del programa
 
-<b>1era Parte</b>
+**1era Parte**
 
 Mediante programas o herramientas para hacer pruebas de API tales como Insomnia o Postman se tienen como HTTP Requests las funciones CRUD anteriormente mencionadas, tanto para registrar tópicos como para listar, actualizar, borrar o inclusive obtener datos de un tópico en específico, esto haciendo una búsqueda mediante el ID del mismo.
 
